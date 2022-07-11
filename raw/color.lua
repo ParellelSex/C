@@ -18,7 +18,7 @@ local Colors = {
     ["G"] = "@@DARK_GRAY@@",
 }
 __commands[#__commands+1] = {{"color"},"Set's you're console color.",function(args)
-    if args >= 1 then
+    if #args >= 1 then
         for i,v in next, Colors do
             if tostring(args[1]):upper() == i then
                 rconsoleprint(v)
