@@ -1,1 +1,1 @@
-import clear.lua%e
+import clear.lua%eimport color.lua%e
